@@ -1,6 +1,6 @@
 # Authentication & Profile
 
-> ℹ️ This article was last updated on 1 May 2025  
+> ℹ️ Last updated : 12 Jan 2026  
 
 ## Table of Contents
 - [About](#about)
