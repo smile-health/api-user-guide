@@ -1,6 +1,6 @@
 # Auth & Profile Role Matrix
 
-> ℹ️ This article was last updated on 8 Sept 2025  
+> ℹ️ Last updated : 12 Jan 2026  
 
 ## Table of Contents
 - [About](#about)
