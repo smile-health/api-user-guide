@@ -5,7 +5,7 @@
 ## Table of Contents
 - [About](#about)
 - [API Endpoints](#api-endpoints)
-- [Revision History](#revision-history)
+
 
 
 
@@ -22,13 +22,5 @@ The document outlines various API endpoints related to the Authentication servic
 
 
 
-
-## Revision History
-
-
-| Date        | Change description                                              | Author | Status |
-|-------------|-----------------------------------------------------------------|--------|--------|
-| 8 Sept 2025   | Added profile API endpoints | TW     | Done   |
-| 29 Apr 2025  | Updated with the latest API Apidog documentation. Ready to Review by SA. | TW     | Done   |
 
 
