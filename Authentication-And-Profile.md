@@ -11,7 +11,7 @@
   - [Token Expiry Time](#token-expiry-time)
   - [Multi-login Mechanism](#multi-login-mechanism)
   - [User Role Login Platform](#user-role-login-platform)
-- [Revision History](#revision-history)
+
 
 
 
@@ -70,13 +70,6 @@ This Authentication service is associated with **All Services**, whether Core or
 - For example, the **Operator** user role can only access the system on the **Mobile platform**. Therefore, the Operator role cannot log in to the Web platform..
 
 > ℹ️ For more information, please visit the [Authentication Role Matrix](#). page
-
-## Revision History
-
-
-| Date        | Change description                                              | Author | Status |
-|-------------|-----------------------------------------------------------------|--------|--------|
-| 1 May 2025  | Revised the document based on Angesh’s review. Ready to review by SA. | TW     | Done   |
 
 
 
