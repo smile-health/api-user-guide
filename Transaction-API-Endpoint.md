@@ -28,24 +28,24 @@ record accuracy, and enhancing overall operational efficiency.
 
 | **Type** | **API URL** | **API Name** | **Web App** | **Mobile App** |
 |----------|-------------|--------------|-------------|----------------|
-| GET | /transactions | Transaction Lists | Yes | Yes |
-| GET | /transactions/{id} | Transaction Detail | Yes | Yes |
-| GET | /transactions-discard | Transaction List Discard | Yes | Yes |
-| GET | /transactions/elastic | Transaction Lists Elastic | Yes | Yes |
-| GET | /transactions/xls | Transaction Lists Export | Yes | No |
-| GET | /transactions/type | Transaction Types | Yes | Yes |
-| GET | /transactions/reason | Transaction Reasons | Yes | Yes |
-| GET | /transactions/consumption | Transaction List Consumption | Yes | Yes |
-| GET | /transactions/rabies-sequence | Transaction Rabies Sequence | Yes | Yes |
-| POST | /transactions/add-stock | Transaction Add Stock | Yes | Yes |
-| POST | /transactions/remove-stock | Transaction Reduce Stock | Yes | Yes |
-| POST | /transactions/discard-stock | Transaction Discard Stock | Yes | Yes |
-| POST | /transactions/consumption | Transaction Consumption | Yes | Yes |
-| POST | /transactions/return-of-health-facitilies | Transaction Return from Health Facilities | Yes | Yes |
-| POST | /transactions/cancelation-discard | Transaction Cancellation of Discard | Yes | Yes |
-| POST | /transactions/consumption | Transaction Consumption (Rabies) | Yes | Yes |
-| POST | /transactions/consumption | Transaction Consumption (Dengue) | Yes | Yes |
-| GET | /transactions/return-of-health-facitilies | Transaction Lists Return of Health Facilities | Yes | Yes |
-| GET | /transactions/transfer-stock | Transaction Relocation Between Program | Yes | Yes |
-| POST | /transfer-stock/stocks | List Stock Material | Yes | Yes |
+| GET | /transactions | Transaction Lists | ✔️ | ✔️ |
+| GET | /transactions/{id} | Transaction Detail | ✔️ | ✔️ |
+| GET | /transactions-discard | Transaction List Discard | ✔️ | ✔️ |
+| GET | /transactions/elastic | Transaction Lists Elastic | ✔️ | ✔️ |
+| GET | /transactions/xls | Transaction Lists Export | ✔️ | ❌ |
+| GET | /transactions/type | Transaction Types | ✔️ | ✔️ |
+| GET | /transactions/reason | Transaction Reasons | ✔️ | ✔️ |
+| GET | /transactions/consumption | Transaction List Consumption | ✔️ | ✔️ |
+| GET | /transactions/rabies-sequence | Transaction Rabies Sequence | ✔️ | ✔️ |
+| POST | /transactions/add-stock | Transaction Add Stock | ✔️ | ✔️ |
+| POST | /transactions/remove-stock | Transaction Reduce Stock | ✔️ | ✔️ |
+| POST | /transactions/discard-stock | Transaction Discard Stock | ✔️ | ✔️ |
+| POST | /transactions/consumption | Transaction Consumption | ✔️ | ✔️ |
+| POST | /transactions/return-of-health-facitilies | Transaction Return from Health Facilities | ✔️ | ✔️ |
+| POST | /transactions/cancelation-discard | Transaction Cancellation of Discard | ✔️ | ✔️ |
+| POST | /transactions/consumption | Transaction Consumption (Rabies) | ✔️ | ✔️ |
+| POST | /transactions/consumption | Transaction Consumption (Dengue) | ✔️ | ✔️ |
+| GET | /transactions/return-of-health-facitilies | Transaction Lists Return of Health Facilities | ✔️ | ✔️ |
+| GET | /transactions/transfer-stock | Transaction Relocation Between Program | ✔️ | ✔️ |
+| POST | /transfer-stock/stocks | List Stock Material | ✔️ | ✔️ |
 
