@@ -45,7 +45,7 @@ For more information about features that each role can perform, please visit the
 
 ## System Data Architecture
 
-For more information on the Inventory System Architecture, please visit the System Data Architecture.
+For more information on the Inventory System Architecture, please visit the **System Data Architecture**.
 
 ---
 
