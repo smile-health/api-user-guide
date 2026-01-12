@@ -1,6 +1,6 @@
 # Transaction API Endpoint
 
-_Last updated: 12 Jan 2026_
+> ℹ️ Last updated: 12 Jan 2026
 
 ## Table of Contents
 - [About](#about)
