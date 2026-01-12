@@ -4,7 +4,12 @@
 
 ## Table of Contents
 - [About](#about)
-- [Role Matrix](#role-matrix)
+- [Roles](#roles)
+- [Associated Components](#associated-components)
+- [System Data Architecture](#system-data-architecture)
+- [Special Notes](#special-notes)
+  - [Order Status Level](#order-status-level)
+  - [Order Type](#order-type)
 
 ---
 
@@ -96,11 +101,11 @@ This service has several types of orders, such as:
 **Allocation**
 
 For allocation types, there are two different allocation types, such as: 
-1. ** Distribution**
+1. **Distribution**
    - Performs distribution order of materials from top-level entities to lower-level entities that are their distribution customers, with a top-down process
    - The initial status order of this order type is **Allocated**.
 
-2. **Central Distribution **
+2. **Central Distribution**
    - Performs central distribution order of materials directly from the highest-level entity to a specific entity without passing through the top-down process. 
    - The initial status of this order is **Shipped**.
 
