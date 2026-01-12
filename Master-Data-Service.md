@@ -1,6 +1,6 @@
 # Master Data Service
 
-> ℹ️ This article was last updated on 12 Jan 2026  
+> ℹ️ Last updated : 12 Jan 2026  
 
 ## Table of Contents
 - [About](#about)
