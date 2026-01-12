@@ -1,6 +1,6 @@
 # Inventory Service
 
-_Last updated: 12 Jan 2026_
+> ℹ️ Last updated: 12 Jan 2026
 
 ## Table of Contents
 - [About](#about)
@@ -31,7 +31,7 @@ Inventory service can be performed by these roles:
 - Admin
 - Manager
 - Operator
-For more information about features that each role can perform, please visit the **Inventory Role Matrix**.
+> ℹ️ For more information about features that each role can perform, please visit the **Inventory Role Matrix**.
 
 ---
 
@@ -45,7 +45,7 @@ For more information about features that each role can perform, please visit the
 
 ## System Data Architecture
 
-For more information on the Inventory System Architecture, please visit the **System Data Architecture**.
+> ℹ️ For more information on the Inventory System Architecture, please visit the **System Data Architecture**.
 
 ---
 
