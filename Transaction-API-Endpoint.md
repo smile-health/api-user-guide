@@ -1,4 +1,4 @@
-# Transaction Service
+# Transaction API Endpoint
 
 _Last updated: 12 Jan 2026_
 
