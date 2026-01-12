@@ -5,7 +5,6 @@
 ## Table of Contents
 - [About](#about)
 - [Roles Matrix](#roles-matrix)
-- [Revision History](#revision-history)
 
 
 
@@ -30,12 +29,6 @@ This document serves as a critical component of security and compliance strategi
 | Profile | Edit Password | ✔ Full | ✔ View-only | ✔ Full | ✔ View-only | ✔ Full | ✔ View-only | ✔ Full | ✔ Full |
 
 
-## Revision History
 
-
-| Date        | Change description                                              | Author | Status |
-|-------------|-----------------------------------------------------------------|--------|--------|
-| 3 Sept 2025   | Added Profile Role Matrix | TW     | Done   |
-| 11 Apr 2025   | Ready to Review by SA | TW     | Done   |
 
 
