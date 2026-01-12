@@ -31,7 +31,6 @@ access levels and enhances the management across the system.
 
 ## Role Matrix
 
-Super Admin, Admin
 | **Functionality** | **Feature** | **Super Admin - Web - Full** | **Super Admin - Web - View Only** | **Admin - Web - Full** | **Admin - Web - View Only** | **Manager - Web - Full** | **Manager - Web - View Only** |  **Manager - Mobile - Full** | **Manager - Mobile - View Only** |  **Operator - Mobile - Full** | **Operator - Mobile - View Only** | 
 |----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
 | Transaction List | View Transaction List | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
