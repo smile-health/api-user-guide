@@ -162,6 +162,8 @@ The matrix includes various settings, such as user management, entity management
 | Program Setting - Impor Material-Entity Management | View Import Material-Entity History Log | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - Impor Material-Entity Management | Download Template for Import Material-Entity Relation on Entity | ✔️ | ❌ | ✔️ | ❌ |
 | Program Setting - Impor Material-Entity Management | Import Material-Entity Relation | ✔️ | ❌ | ✔️ | ❌ |
+| Program Setting - Protocol | View Detail and Configure Protocol | ✔️ | ✔️ | ✔️ | ✔️ |
+| Program Setting - Protocol | Deactivate | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - Asset Model | View List Asset Model | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - Asset Model | Export Asset Model | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - Asset Model | View Detail Asset Model | ✔️ | ✔️ | ✔️ | ✔️ |
