@@ -67,6 +67,8 @@ To support these functionalities, the SMILE system is integrated with several es
 ## System Data Architecture
 > ℹ️ For detailed information on the Order System Architecture, go to the **System Data Architecture**.
 
+---
+
 ## Special Notes
 ### Order Status Level
 This service has order status level with appropriate tracking and validation. Each status 
