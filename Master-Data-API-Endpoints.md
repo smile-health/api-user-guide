@@ -1,6 +1,6 @@
 # Master Data API Endpoints
 
-> ℹ️ Last updated : 12 Jan 2026  
+> ℹ️ Last updated : 13 Jan 2026  
 
 ## Table of Contents
 - [About](#about)
@@ -54,12 +54,12 @@ The document outlines various API endpoints related to user management. It inclu
 | GET | `/regencies` | Get List Regency | ✔️ | ❌ |
 | GET | `/subdistricts` | Get List Sub District | ✔️ | ❌ |
 | GET | `/villages` | Get List Villages | ✔️ | ❌ |
-| GET | `/materials` | Global Lists Material Non-Hirarki / Active&S / Trademark | ✔️ | ❌ |
+| GET | `/materials` | Global Lists Material Non-Hirarki / Product Template / Product Variant | ✔️ | ❌ |
 | GET | `/materials/xls` | Export List | ✔️ | ❌ |
-| GET | `/materials/xls-template` | Download Template (Non Hierarchy / Active&S / Trademark) | ✔️ | ❌ |
+| GET | `/materials/xls-template` | Download Template (Non Hierarchy / Product Template / Product Variant) | ✔️ | ❌ |
 | POST | `/materials/xls` | Import Material | ✔️ | ❌ |
-| GET | `/materials/{id}` | Global Detail Material (Non-Hirarki / Active&S / Trademark) | ✔️ | ❌ |
-| POST | `/materials` | Create Material (Non-Hirarki / Active&S / Trademark) | ✔️ | ❌ |
+| GET | `/materials/{id}` | Global Detail Material (Non-Hirarki / Product Template / Product Variant) | ✔️ | ❌ |
+| POST | `/materials` | Create Material (Non-Hirarki / Product Template / Product Variant) | ✔️ | ❌ |
 | PUT | `/materials/{id}` | Edit Material Global | ✔️ | ❌ |
 | PUT | `/materials/{id}/status` | Update Material Status | ✔️ | ❌ |
 | GET | `/material-levels` | Material Level | ✔️ | ❌ |
@@ -78,12 +78,27 @@ The document outlines various API endpoints related to user management. It inclu
 | GET | `/budget-sources/{id}` | Get Budget Source Detail | ✔️ | ❌ |
 | POST | `/budget-sources` | Create Budget Source | ✔️ | ❌ |
 | PUT | `/budget-sources/{id}` | Update Budget Source | ✔️ | ❌ |
-| GET | `/asset-type` | Get Asset Type List | ✔️ | ❌ |
-| GET | `/asset-type/{id}` | Get Asset Type Detail | ✔️ | ❌ |
-| GET | `/asset-model` | Get Asset Model List | ✔️ | ❌ |
-| GET | `/asset-model/{id}` | Get Asset Model Detail | ✔️ | ❌ |
-| GET | `/asset-vendor` | Get Asset Vendor List | ✔️ | ❌ |
-| GET | `/asset-vendor/{id}` | Get Asset Vendor Detail | ✔️ | ❌ |
+| GET | `/asset-types` | Get List Asset Type | ✔️ | ❌ |
+| GET | `/asset-types/xls` | Export | ✔️ | ❌ |
+| GET | `/asset-types/{id}` | Get Asset Type Detail | ✔️ | ❌ |
+| GET | `/asset-types/xls-template` | Download Template | ✔️ | ❌ |
+| POST | `/asset-types` | Create Asset Type | ✔️ | ❌ |
+| POST | `/asset-types/xls` | Import Asset Type | ✔️ | ❌ |
+| PUT | `/asset-types/{id}` | Update Asset Type | ✔️ | ❌ |
+| GET | `/asset-models` | Get List Asset Models | ✔️ | ❌ |
+| GET | `/asset-models/xls` | Export List Asset Model | ✔️ | ❌ |
+| GET | `/asset-models/{id}` | Get Asset Model Detail | ✔️ | ❌ |
+| GET | `/asset-models/xls-template` | Download Template | ✔️ | ❌ |
+| POST | `/asset-models` | Create Asset Model | ✔️ | ❌ |
+| POST | `/asset-models/xls` | Import Asset Model | ✔️ | ❌ |
+| PUT | `/asset-models/{id}` | Update Asset Model | ✔️ | ❌ |
+| GET | `/asset-vendors` | Get List Asset Vendor | ✔️ | ❌ |
+| GET | `/asset-vendors/xls` | Export List Asset Vendor | ✔️ | ❌ |
+| GET | `/asset-vendors/{id}` | Get Asset Vendor Detail | ✔️ | ❌ |
+| GET | `/asset-vendors/xls-template` | Download Template | ✔️ | ❌ |
+| POST | `/asset-vendors` | Create Asset Vendor | ✔️ | ❌ |
+| POST | `/asset-vendors/xls` | Import Asset Vendor | ✔️ | ❌ |
+| PUT | `/asset-vendors/{id}` | Update Asset Vendor | ✔️ | ❌ |
 | GET | `/app/notif` | In App Notification | ❌ | ✔️ |
 | GET | `/app/data/{id}/cva` | App Data: Customer - Vendor - Activities | ❌ | ✔️ |
 | GET | `/app/data/trx-types` | App Data: Transaction Types | ❌ | ✔️ |
@@ -137,25 +152,24 @@ The document outlines various API endpoints related to user management. It inclu
 | GET | `/entities-materials-bulk` | Log List Entities Materials Bulk | ✔️ | ❌ |
 | POST | `/entities-materials-bulk/xls` | Import Material Entities Bulk | ✔️ | ❌ |
 | GET | `/entities-materials-bulk/template` | Filter Template Material Entities | ✔️ | ❌ |
-| GET | `/materials` | Lists (Non Hierarchy / Active&S / Trademark) | ✔️ | ❌ |
-| GET | `/materials/xls` | Export (Non-Hirarki / Active&S / Trademark) | ✔️ | ❌ |
-| POST | `/materials/xls` | Import Update (Non-Hirarki / Trademark) | ✔️ | ❌ |
-| GET | `/materials/{id}` | Material Details (Non Hierarchy / Active&S / Trademark) | ✔️ | ❌ |
-| PUT | `/materials/{id}` | Update (Non-Hierarchy / Active&S / Trademark) | ✔️ | ❌ |
+| GET | `/materials` | Lists (Non Hierarchy / Product Template / Product Variant) | ✔️ | ❌ |
+| GET | `/materials/xls` | Export (Non-Hirarki / Product Template / Product Variant) | ✔️ | ❌ |
+| POST | `/materials/xls` | Import Update (Non-Hirarki / Product Variant) | ✔️ | ❌ |
+| GET | `/materials/{id}` | Material Details (Non Hierarchy / Product Template / Product Variant) | ✔️ | ❌ |
+| PUT | `/materials/{id}` | Update (Non-Hierarchy / Product Template / Product Variant) | ✔️ | ❌ |
 | GET | `/manufactures` | Get List by Program | ✔️ | ❌ |
 | GET | `/manufactures/{id}` | Get Detail By Program | ✔️ | ❌ |
 | PUT | `/manufactures/{id}` | Update Status | ✔️ | ❌ |
 | GET | `/budget-sources` | Get By Workspace | ✔️ | ❌ |
 | GET | `/budget-sources/{id}` | Get Detail By Workspace | ✔️ | ❌ |
 | GET | `/budget-sources/xls` | Export Excel | ✔️ | ❌ |
-| GET | `/asset-type` | Get Asset Type List | ✔️ | ❌ |
-| GET | `/asset-type/{id}` | Get Asset Type Detail | ✔️ | ❌ |
-| GET | `/asset-model` | Get Asset Model List | ✔️ | ❌ |
-| GET | `/asset-model/{id}` | Get Asset Model Detail | ✔️ | ❌ |
-| GET | `/asset-vendor` | Get Asset Vendor List | ✔️ | ❌ |
-| GET | `/asset-vendor/{id}` | Get Asset Vendor Detail | ✔️ | ❌ |
 | GET | `/app/notif` | In App Notification | ❌ | ✔️ |
 | GET | `/app/data/{id}/cva` | App Data: Customer - Vendor - Activities | ❌ | ✔️ |
 | GET | `/app/data/trx-types` | App Data: Transaction Types | ❌ | ✔️ |
+| GET | `/protocols` | 	Get List Protocols | ✔️ | ❌ |
+| GET | `/protocols/{protocol_id}/material-activities` | Get List Material Activities Protocol | ✔️ | ❌ |
+| POST | `/protocols/material-activities` | Set Protocol to Material Activities | ✔️ | ❌ |
+| PUT | `/protocols/{protocolId}/status` | Update Protocol Status | ✔️ | ❌ |
+| DELETE | `/protocols/{protocolId}/material-activities/{id}` | Delete Material Activities | ✔️ | ❌ |
 
 
