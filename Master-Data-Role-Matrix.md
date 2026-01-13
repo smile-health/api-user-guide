@@ -1,6 +1,6 @@
 # Master Data Role Matrix
 
-> ℹ️ Last updated : 12 Jan 2026  
+> ℹ️ Last updated : 13 Jan 2026  
 
 ## Table of Contents
 - [About](#about)
@@ -87,6 +87,20 @@ The matrix includes various settings, such as user management, entity management
 | Global Setting - Asset Vendor | View Detail Asset Vendor | ✔️ | ✔️ | ❌ | ❌ |
 | Global Setting - Asset Vendor | Create Asset Vendor | ✔️ | ❌ | ❌ | ❌ |
 | Global Setting - Asset Vendor | Edit Asset Vendor | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - PQS Code | View Asset PQS Code List | ✔️ | ✔️ | ❌ | ❌ |
+| Global Setting - PQS Code | Export Asset PQS List | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - PQS Code | View Detail Asset PQS Code | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - PQS Code | Create Asset PQS Code | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - PQS Code | Edit Asset Vendor | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Patient | View Patient List | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Patient | Download Template for Import Patient Data | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Patient | Import Patient Data List | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Target Group | View Target Group List | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Target Group | Import Target Group List | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Target Group | Export Target Group List | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Target Group | Download Template for Import Target Group Data | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Target Group | Edit Target Group | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Target Group | Deactivate Target Group | ✔️ | ❌ | ❌ | ❌ |
 | Program Setting - User Management | View User List | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - User Management | View Detail User | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - User Management | Update User Status | ✔️ | ❌ | ✔️ | ❌ |
