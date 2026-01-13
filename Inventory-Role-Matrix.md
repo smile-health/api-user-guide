@@ -1,4 +1,4 @@
-# Inventiry Role Matrix
+# Inventory Role Matrix
 
 > ℹ️ Last updated: 12 Jan 2026
 
