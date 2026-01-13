@@ -41,6 +41,9 @@ The matrix includes various settings, such as user management, entity management
 | Global Setting - Entity Management | View List User on an Entity Global | ✔️ | ✔️ | ❌ | ❌ |
 | Global Setting - Entity Management | Create Entity | ✔️ | ❌ | ❌ | ❌ |
 | Global Setting - Entity Management | Edit Entity | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - Program Detail - Activity | View Activity List | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - Program Detail - Activity | Create Activity Detail | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - Program Detail - Activity | View Detail Activity | ✔️ | ❌ | ❌ | ❌ |
 | Global Setting - Material Data | View Material Data List | ✔️ | ✔️ | ❌ | ❌ |
 | Global Setting - Material Data | Export Material Data List | ✔️ | ✔️ | ❌ | ❌ |
 | Global Setting - Material Data | Download Template for Import Material Data | ✔️ | ❌ | ❌ | ❌ |
@@ -54,6 +57,10 @@ The matrix includes various settings, such as user management, entity management
 | Global Setting - Material Data | Create Material Non Hierarchy | ✔️ | ❌ | ❌ | ❌ |
 | Global Setting - Material Data | Edit Material Data Non Hierarchy | ✔️ | ❌ | ❌ | ❌ |
 | Global Setting - Material Data | Update Status Material Non Hierarchy | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - Material Packaging Volume | View Material Packaging Volume List | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - Material Packaging Volume | Create Material Packaging Volume | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - Material Packaging Volume | View Detail Material Packaging Volume | ✔️ | ❌ | ❌ | ❌ |
+| Global Setting - Material Packaging Volume | Edit Material Packaging Volume | ✔️ | ❌ | ❌ | ❌ |
 | Global Setting - Manufacturer | View Manufacturer List | ✔️ | ✔️ | ❌ | ❌ |
 | Global Setting - Manufacturer | Export Manufacturer List | ✔️ | ✔️ | ❌ | ❌ |
 | Global Setting - Manufacturer | Download Template for Import Manufacturer Data | ✔️ | ❌ | ❌ | ❌ |
@@ -101,6 +108,12 @@ The matrix includes various settings, such as user management, entity management
 | Global Settings - Target Group | Download Template for Import Target Group Data | ✔️ | ❌ | ❌ | ❌ |
 | Global Settings - Target Group | Edit Target Group | ✔️ | ❌ | ❌ | ❌ |
 | Global Settings - Target Group | Deactivate Target Group | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Population | View Population List | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Population | Import Population Data | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Population | Export Population List | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Population | Download Template for Import Population Data | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Population | View Detail Population | ✔️ | ❌ | ❌ | ❌ |
+| Global Settings - Population | Activate Year Population Data | ✔️ | ❌ | ❌ | ❌ |
 | Program Setting - User Management | View User List | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - User Management | View Detail User | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - User Management | Update User Status | ✔️ | ❌ | ✔️ | ❌ |
@@ -147,36 +160,25 @@ The matrix includes various settings, such as user management, entity management
 | Program Setting - Stock Taking Period | Create Stocktaking Period | ✔️ | ❌ | ✔️ | ❌ |
 | Program Setting - Stock Taking Period | Edit Stocktaking Period | ✔️ | ❌ | ✔️ | ❌ |
 | Program Setting - Stock Taking Period | Update Stocktaking Period Status | ✔️ | ❌ | ✔️ | ❌ |
-| Program Setting - Material Data | View List Material Data | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Material Data | Export Material Data | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Material Data | Download Template for Import Material Data | ✔️ | ❌ | ✔️ | ❌ |
-| Program Setting - Material Data | Import Material Data | ✔️ | ❌ | ✔️ | ❌ |
-| Program Setting - Material Data | View Detail Material Data | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Material Data | Edit Material Data | ✔️ | ❌ | ✔️ | ❌ |
-| Program Setting - Material Data | Update Material Status | ✔️ | ❌ | ✔️ | ❌ |
-| Program Setting - Material Data | View List Material Data Non Hierarchy | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Material Data | View Detail Material Data Non Hierarchy | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Material Data | Export Material Data Non Hierarchy | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Material Data | Import Material Data Non Hierarchy | ✔️ | ❌ | ✔️ | ❌ |
-| Program Setting - Material Data | Edit Material Data Non Hierarchy | ✔️ | ❌ | ✔️ | ❌ |
+| Program Setting - Material  | View List Material Data | ✔️ | ✔️ | ✔️ | ✔️ |
+| Program Setting - Material | Export Material Data | ✔️ | ✔️ | ✔️ | ✔️ |
+| Program Setting - Material | Download Template for Import Material Data | ✔️ | ❌ | ✔️ | ❌ |
+| Program Setting - Material | Import Material Data | ✔️ | ❌ | ✔️ | ❌ |
+| Program Setting - Material | View Detail Material Data | ✔️ | ✔️ | ✔️ | ✔️ |
+| Program Setting - Material | Edit Material Data | ✔️ | ❌ | ✔️ | ❌ |
+| Program Setting - Material | Update Material Status | ✔️ | ❌ | ✔️ | ❌ |
+| Program Setting - Material | View List Material Data Non Hierarchy | ✔️ | ✔️ | ✔️ | ✔️ |
+| Program Setting - Material | View Detail Material Data Non Hierarchy | ✔️ | ✔️ | ✔️ | ✔️ |
+| Program Setting - Material | Export Material Data Non Hierarchy | ✔️ | ✔️ | ✔️ | ✔️ |
+| Program Setting - Material | Import Material Data Non Hierarchy | ✔️ | ❌ | ✔️ | ❌ |
+| Program Setting - Material | Edit Material Data Non Hierarchy | ✔️ | ❌ | ✔️ | ❌ |
 | Program Setting - Impor Material-Entity Management | View Import Material-Entity History Log | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - Impor Material-Entity Management | Download Template for Import Material-Entity Relation on Entity | ✔️ | ❌ | ✔️ | ❌ |
 | Program Setting - Impor Material-Entity Management | Import Material-Entity Relation | ✔️ | ❌ | ✔️ | ❌ |
 | Program Setting - Protocol | View Detail and Configure Protocol | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - Protocol | Deactivate | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Model | View List Asset Model | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Model | Export Asset Model | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Model | View Detail Asset Model | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Model | Update Asset Model Status | ✔️ | ❌ | ✔️ | ❌ |
-| Program Setting - Asset Type | View List Asset Type | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Type | Export Asset Type | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Type | View Detail Asset Type | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Type | Update Asset Type Status | ✔️ | ❌ | ✔️ | ❌ |
 | Program Setting - Manufacturer | View Manufacturer List | ✔️ | ✔️ | ✔️ | ✔️ |
 | Program Setting - Manufacturer | View Detail Manufacturer | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Vendor | View List Asset Vendor | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Vendor | Export Asset Vendor | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Vendor | View Detail Asset Vendor | ✔️ | ✔️ | ✔️ | ✔️ |
-| Program Setting - Asset Vendor | Update Asset Vendor Status | ✔️ | ❌ | ✔️ | ❌ |
+
 
 
