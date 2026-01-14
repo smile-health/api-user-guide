@@ -1,4 +1,4 @@
-# Integration API Endpoint
+# API Integration Endpoint
 
 > ℹ️ Last updated: 14 Jan 2026
 
@@ -10,12 +10,12 @@
 
 ## About
 
-The Integration API Endpoint provides a comprehensive solution for managing and integrating data 
+The API Integration Endpoint provides a comprehensive solution for managing and integrating data 
 between SMILE web and mobile applications and other systems, either as a source or destination for 
 data exchange, in order to meet the necessary integration requirements. This API supports functions 
 such as order integration, post picking order, and manage disposal instruction.
 
-These integration functions can only be accessed through a backend-to-backend mechanism. The entire 
+The API Integration functions can only be accessed through a backend-to-backend mechanism. The entire 
 integration process takes place entirely on the server side without involving interaction through the 
 user interface or frontend. The SMILE system sends and/or receives requests from other systems by 
 implementing established authentication and authorization mechanisms. The security mechanisms used may 
@@ -24,7 +24,7 @@ received are then processed by the backend client to be stored, analyzed, or for
 as required for operational needs. This ensures secure data handling, integrated workflows, and 
 efficient operational control.
 
-The Integration API Endpoint plays a key role in optimize order management, disposal instruction 
+The API Integration Endpoint plays a key role in optimize order management, disposal instruction 
 management, IoT management, improving tracking accuracy, and increasing overall business efficiency. 
 The SMILE system have three main integration API such as: SIHA/SITB Integration, WMS Integration, 
 and DIN Integration.
