@@ -25,9 +25,8 @@ as required for operational needs. This ensures secure data handling, integrated
 efficient operational control.
 
 The API Integration Endpoint plays a key role in optimize order management, disposal instruction 
-management, IoT management, improving tracking accuracy, and increasing overall business efficiency. 
-The SMILE system have three main integration API such as: SIHA/SITB Integration, WMS Integration, 
-and DIN Integration.
+management, improving tracking accuracy, and increasing overall business efficiency. The SMILE system 
+have three main integration API such as: SIHA/SITB Integration, WMS Integration, and DIN Integration.
 
 ---
 
