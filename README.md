@@ -1,6 +1,6 @@
 # API Quick Start Guide
 
-_Last updated: 13 Jan 2026_
+_Last updated: 14 Jan 2026_
 
 ## Table of Contents
 - [About](#about)
@@ -67,7 +67,7 @@ The following outlines the key API endpoints per service available in SMILE:
 | Order | Order - SMILE Platform |
 | Transaction | Transaction - SMILE Platform |
 | Disposal | Disposal - SMILE Platform |
-| Integration API | Integration API - SMILE Platform |
+| API Integration | API Integration - SMILE Platform |
 
 ---
 
