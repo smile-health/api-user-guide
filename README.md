@@ -67,6 +67,7 @@ The following outlines the key API endpoints per service available in SMILE:
 | Order | Order - SMILE Platform |
 | Transaction | Transaction - SMILE Platform |
 | Disposal | Disposal - SMILE Platform |
+| Integration API | Integration API - SMILE Platform |
 
 ---
 
