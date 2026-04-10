@@ -12,7 +12,7 @@
 ## About
 ---
 
-The document outlines various API endpoints related to user management. It includes methods for retrieving a list of users, creating new users, updating user information, and deleting users. Additionally, it provides endpoints for accessing user change logs, updating user status, and importing or exporting user data using Excel templates. Each endpoint is associated with a specific HTTP method and a brief description of its functionality.
+This document provides API endpoints for WMS master data management, asset configuration, and partnership operations. It covers entity and user management, system settings, waste hierarchy and classification, asset records, healthcare facility assets, dongle configurations, partnership data, partner vehicles, and operator mappings. These endpoints support the core reference data and operational setup required for waste management workflows across the WMS platform.
 
 ## API Endpoints
 ---
