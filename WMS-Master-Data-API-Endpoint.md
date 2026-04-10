@@ -6,8 +6,8 @@
 - [About](#about)
 - [API Endpoints](#api-endpoints)
   - [Master Data APIs](#master-data-apis)
-  - [Asset Management APIs](#asset-management-apis)
-  - [Partnership Management Data APIs](#parnership-management-data-apis)
+  - [Asset Management APIs](#asset-management-data-apis)
+  - [Partnership Management Data APIs](#partnership-management-data-apis)
 
 ## About
 ---
