@@ -1,6 +1,6 @@
 # API Quick Start Guide
 
-_Last updated: 14 Jan 2026_
+_Last updated: 10 Apr 2026_
 
 ## Table of Contents
 - [About](#about)
@@ -11,7 +11,6 @@ _Last updated: 14 Jan 2026_
 - [Error Handling & Response Codes](#error-handling--response-codes)
 - [Getting Started with API Integration](#getting-started-with-api-integration)
 - [Support & Contact](#support--contact)
-- [Revision History](#revision-history)
 
 ---
 
@@ -57,7 +56,8 @@ For more information, please visit the **Detailed Authentication Guide** page.
 
 ## API Service Endpoints
 
-The following outlines the key API endpoints per service available in SMILE:
+The following outlines the key API endpoints per service available in SMILE and WMS. 
+- SMILE
 
 | API Endpoints | API Docs |
 |--------------|----------|
@@ -68,6 +68,16 @@ The following outlines the key API endpoints per service available in SMILE:
 | Transaction | Transaction - SMILE Platform |
 | Disposal | Disposal - SMILE Platform |
 | API Integration | API Integration - SMILE Platform |
+
+- WMS
+
+| API Endpoints | API Docs |
+|--------------|----------|
+| Authentication | Authentication - SMILE Platform |
+| Master Data | Master Data - WMS |
+| Transaction | Transaction - WMS |
+| Mobile | Mobile - WMS |
+| Dashboard and Report | Dashboard and Report - WMS |
 
 ---
 
